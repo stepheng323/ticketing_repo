@@ -8,6 +8,9 @@ import signin from './routes/signin';
 
 const app = express();
 
+console.log('starting app');
+
+
 app.set('trust proxy', true);
 
 app.use(express.json());
